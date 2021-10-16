@@ -66,7 +66,9 @@ final List<Restaurant> restaurants = [
   _restaurant4,
 ];
 
-// User
+///
+///
+
 final currentUser = User(
   name: 'Rebecca',
   orders: [

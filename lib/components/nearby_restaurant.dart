@@ -1,7 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/components/stars_builder.dart';
 import 'package:food_delivery_app/data/data.dart';
+import 'package:food_delivery_app/components/stars_builder.dart';
 import 'package:food_delivery_app/screens/restaurant_screen.dart';
+
+///
+/// Change Notifiers
+/// listanables.
+/// ValueNotifier.
+///
+/// vs
+///
+/// Bloc, Streams.
+///
+
 
 class NearbyRestaurant extends StatelessWidget {
   const NearbyRestaurant({Key? key}) : super(key: key);

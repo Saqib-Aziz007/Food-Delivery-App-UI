@@ -6,7 +6,6 @@ import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import 'package:food_delivery_app/data/data.dart';
-import 'package:food_delivery_app/data/data.dart';
 import 'package:food_delivery_app/models/order.dart';
 
 class CartScreen extends StatelessWidget {
@@ -72,7 +71,7 @@ class CartScreen extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(
-                  height: 100,
+                  height: 70,
                 ),
               ],
             ),
@@ -86,7 +85,7 @@ class CartScreen extends StatelessWidget {
         },
       ),
       bottomSheet: Container(
-        height: 100,
+        height: 70,
         //color: Theme.of(context).primaryColor,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
